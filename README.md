@@ -9,3 +9,7 @@
 ## Captura de la Salida Esperada
 
 ![Resultado de Ejecución](assets/MetodosDeBusqueda.png)
+
+## Captura de la Salida 10/11/2025
+
+![Resultado de Ejecución](assets/metodosBusquea11-10.png)

@@ -1,5 +1,7 @@
 package views;
 
+import models.Persona;
+
 public class ShowConsole {
 
     public ShowConsole(){}
@@ -26,5 +28,26 @@ public class ShowConsole {
             System.out.println("El número {" + value + "} se encontró en la posición: " + result);
         }
     }
-    
+
+    public void showPersonResult (Persona persona, String name){
+        //if(persona == null){
+          //  System.out.println("No se encontro la Persona con el nombre: " + name);
+        //} else{
+          //  System.out.println("Se encontro a la persona: " + name);
+        //}
+        System.out.println(persona != null ? "Se encontro a " + persona 
+        : "No se encontro a una persona con el nommbre: " + name);
+    }
+
+    public void showPersonResult (Persona persona2, int age){
+        System.out.println(persona2 != null ? "Se encontro a " + persona2 
+        : "No se encontro a la persona con edad : " + age );
+    }
+
+    public void showPersonResult(Persona persona, int i, boolean valorNombre){
+          System.out.println(persona != null ? "Se encontro a " + persona 
+        : "No se encontro a la persona con edad : " + i );
+       
+    }
+
 }
